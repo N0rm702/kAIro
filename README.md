@@ -7,3 +7,8 @@ I am planning to add a
 -UI
 -fixing bugs
 -optimizing and training for even better responses.
+
+
+************NOTE*************
+
+to run this on a machine requirements.py must be first run on your machine to install dependencies needed for this programme.
