@@ -18,9 +18,9 @@ Original file is located at
 pip install bytez
 
 from getpass import getpass
-import os
 import time
-import sys
+import os #------ Thougth of adding a wait animation while the bot fetched responses .
+import sys#------/////
 #os.environ["OPENAI_API_KEY"] = getpass("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 ")
 from langchain_core.messages import HumanMessage
 #from langchain_openai import ChatOpenAI
