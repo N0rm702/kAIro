@@ -70,8 +70,8 @@ def main():
 if __name__ =="__main__":
       main()
 
-# quick import test
-try:
+
+try: # Done to check if the OpenAI library was working fine
     from langchain_openai import ChatOpenAI
     import langchain, openai
     print("langchain version:", langchain.__version__)
@@ -80,5 +80,7 @@ except Exception as e:
     print("Import error:", e)
 
 pip install langchain-openai
+# Unfortunately a free llm had to be imported so OpenAI was completely scrapped off.
+!pip install bytez  
 
-!pip install bytez
+#This was made in Google collab so it has commands to install dependencies/libraries.
