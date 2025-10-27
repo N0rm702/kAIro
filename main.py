@@ -7,16 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1DB5yyXXWBmkn182fk7f-52oLhpdGo4Ns
 """
 
-!python -m pip install --upgrade pip
-
-
-!pip install langchain==1.0.2 langchain-openai==1.0.1 openai langgraph
-
-
-!pip install python-dotenv
-
-pip install bytez
-
 from getpass import getpass
 import time
 import os #------ Thougth of adding a wait animation while the bot fetched responses .
@@ -79,8 +69,5 @@ try: # Done to check if the OpenAI library was working fine
 except Exception as e:
     print("Import error:", e)
 
-pip install langchain-openai
 # Unfortunately a free llm had to be imported so OpenAI was completely scrapped off.
-!pip install bytez  
-
 #This was made in Google collab so it has commands to install dependencies/libraries.
